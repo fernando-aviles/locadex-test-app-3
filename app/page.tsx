@@ -14,6 +14,7 @@ export default function Home() {
           height={20}
           priority
         />
+        <h1>Hello and welcome to the website</h1>
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <T>
             <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
