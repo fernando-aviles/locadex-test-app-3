@@ -1,0 +1,8 @@
+{
+  "locales": [
+    "en",
+    "es"
+  ],
+  "baseUrl": "http://localhost:10000",
+  "defaultLocale": "en"
+}
