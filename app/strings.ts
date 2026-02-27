@@ -1,9 +1,11 @@
 // Shared strings used across multiple pages
+import { msg } from 'gt-next';
+
 export const shared = {
-  appName: "Locadex Demo",
-  navHome: "Home",
-  navAbout: "About",
-  navContact: "Contact",
-  footerText: "Built with Next.js",
-  copyright: `\u00a9 ${new Date().getFullYear()} Locadex Demo. All rights reserved.`,
+  appName: msg("Locadex Demo"),
+  navHome: msg("Home"),
+  navAbout: msg("About"),
+  navContact: msg("Contact"),
+  footerText: msg("Built with Next.js"),
+  copyright: msg("\u00a9 {year} Locadex Demo. All rights reserved.", { year: new Date().getFullYear() }),
 };
