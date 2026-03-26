@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "mass-retranslation",
+    "translation-quality"
+  ],
+  "issues": [],
+  "filesChecked": 6,
+  "timestamp": "2026-03-26T00:06:45.503Z"
+}
