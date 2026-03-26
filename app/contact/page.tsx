@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { LocaleSelector } from "gt-next";
 import { shared } from "../strings";
 import { contactStrings } from "./strings";
 
@@ -11,10 +12,11 @@ const faqs = [
 export default function Contact() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <nav className="absolute top-8 flex gap-6 text-sm font-medium text-gray-500">
+      <nav className="absolute top-8 flex items-center gap-6 text-sm font-medium text-gray-500">
         <Link href="/" className="hover:text-black">{shared.navHome}</Link>
         <Link href="/about" className="hover:text-black">{shared.navAbout}</Link>
         <Link href="/contact" className="text-black">{shared.navContact}</Link>
+        <LocaleSelector />
       </nav>
 
       <h1 className="text-4xl font-bold mb-4">{contactStrings.heading}</h1>

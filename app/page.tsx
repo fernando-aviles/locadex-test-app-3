@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { LocaleSelector } from "gt-next";
 import { shared } from "./strings";
 
 const features = [
@@ -22,10 +23,11 @@ export default function Home() {
             height={20}
             priority
           />
-          <nav className="flex gap-6 text-sm font-medium text-gray-500">
+          <nav className="flex items-center gap-6 text-sm font-medium text-gray-500">
             <Link href="/" className="text-black dark:text-white">{shared.navHome}</Link>
             <Link href="/about" className="hover:text-black dark:hover:text-white">{shared.navAbout}</Link>
             <Link href="/contact" className="hover:text-black dark:hover:text-white">{shared.navContact}</Link>
+            <LocaleSelector />
           </nav>
         </div>
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
