@@ -1,7 +1,9 @@
 {
   "$schema": "https://assets.gtx.dev/config-schema.json",
   "locales": [
-    "es"
+    "af",
+    "am",
+    "ar"
   ],
   "baseUrl": "http://localhost:10000",
   "defaultLocale": "en",
