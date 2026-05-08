@@ -1,0 +1,14 @@
+{
+  "$schema": "https://assets.gtx.dev/config-schema.json",
+  "locales": [
+    "fr"
+  ],
+  "baseUrl": "https://sporadic-lea-mordaciously.ngrok-free.dev",
+  "defaultLocale": "en",
+  "files": {
+    "gt": {
+      "output": "public/_gt/[locale].json"
+    }
+  },
+  "framework": "next-app"
+}
